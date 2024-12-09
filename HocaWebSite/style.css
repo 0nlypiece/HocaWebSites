@@ -1,0 +1,62 @@
+*{margin: 0px;
+padding: 0px;
+
+box-sizing: border-box;}
+.containers{
+    background-image: url(imgaes/arkaplan.jfif);
+    height: 100vh;
+    background-size: 100% 100%;
+}
+.navbar{
+    height: 50px;
+    background-color: #0000f3d8;
+    width: 100%;
+    background: linear-gradient(90deg, #0000f3d8,#5555ffd8);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.LogoA{
+    height: 50px;
+    text-decoration: none;
+    color: white;
+    font-size: xx-large;
+    cursor: pointer;
+  
+}
+.Logo{margin-left: 20px;}
+.buttons{background-color: blueviolet;
+display: flex;
+align-items: center;
+
+}
+span>div{
+width: 100px;
+height: 35px;
+
+}
+.Ana{ border-radius: 10px; background-color: orange; display: flex;
+align-items: center;
+justify-content: center;}
+.Ana>a{ 
+
+    
+    
+    text-decoration: none;
+    color: white;
+ 
+    cursor: pointer; }
+
+
+
+
+   
+    
+
+
+
+
+
+
+
+
