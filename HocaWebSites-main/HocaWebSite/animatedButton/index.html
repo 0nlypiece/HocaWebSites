@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{margin: 0px;
+    padding: 0px;
+    }
+    body{background-color: gray;}
+    .bg{
+        position: absolute;
+        top: 50%;
+        bottom: 50%;
+        left: 50%;
+        right: 50%;
+        width: 215px;
+        height: 80px;
+        background-color: aqua;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        animation-name: aslan;
+        animation-timing-function: cubic-bezier(0.23, 1, 0.320, 1);
+        animation-duration: 1s;
+        animation-play-state:running ;
+        animation-iteration-count: infinite;
+        box-shadow: 1px 1px 5px 1px transparent;
+        border-radius: 3px;
+    }
+    .bgbut{
+        width: 205px;
+        height: 72px;
+        background-color: rgb(245, 0, 0);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+    }
+    @keyframes aslan{
+        0%{background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,176,34,1) 55%, rgba(0,212,255,1) 100%);
+        }
+        25%{background: rgb(2,0,36);
+background: linear-gradient(150deg, rgba(2,0,36,1) 0%, rgba(9,176,34,1) 55%, rgba(0,212,255,1) 100%);
+}
+50%{background: rgb(2,0,36);
+background: linear-gradient(210deg, rgba(2,0,36,1) 0%, rgba(9,176,34,1) 55%, rgba(0,212,255,1) 100%);
+}
+75%{background: rgb(2,0,36);
+background: linear-gradient(300deg, rgba(2,0,36,1) 0%, rgba(9,176,34,1) 55%, rgba(0,212,255,1) 100%);
+}
+100%{background: rgb(2,0,36);
+background: linear-gradient(35deg, rgba(2,0,36,1) 0%, rgba(9,176,34,1) 55%, rgba(0,212,255,1) 100%);
+}
+    }
+</style>
+<body>
+    <div class="bg">
+        <div class="bgbut"><b>Hello World</b></div>
+    </div>
+</body>
+</html>
